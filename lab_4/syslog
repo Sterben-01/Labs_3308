@@ -1,0 +1,100 @@
+Sep 24 02:34:59 ziqi-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="452" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Sep 24 02:35:01 ziqi-VirtualBox CRON[2594]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 24 02:35:01 ziqi-VirtualBox gnome-software[1518]: Only 0 apps for recent list, hiding
+Sep 24 02:35:02 ziqi-VirtualBox anacron[449]: Job `cron.daily' terminated
+Sep 24 02:35:02 ziqi-VirtualBox anacron[449]: Normal exit (1 job run)
+Sep 24 02:35:03 ziqi-VirtualBox gnome-software[1518]: tried overwriting io.snapcraft.todoist-pP800io06HKwwkUmX8gDG1pFCfsinLHY key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/ziqi/.cache/gnome-software/cssresource/495d04ed773a4d8c0452cc59af3f9354537cc81e-Todoist_logo.png') left center / auto 100% no-repeat, #FFFFFF;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2020/08/Todoist_logo.png') left center / auto 100% no-repeat, #FFFFFF;;
+Sep 24 02:35:03 ziqi-VirtualBox PackageKit: resolve transaction /68_eaeaeabe from uid 1000 finished with success after 1750ms
+Sep 24 02:35:36 ziqi-VirtualBox sSMTP[2665]: Creating SSL connection to host
+Sep 24 02:35:39 ziqi-VirtualBox sSMTP[2665]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:35:48 ziqi-VirtualBox sSMTP[2665]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection u10sm364970pfn.122 - gsmtp) uid=1000 username=ziqi outbytes=590
+Sep 24 02:36:23 ziqi-VirtualBox dbus-daemon[980]: [session uid=1000 pid=980] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.65' (uid=1000 pid=2671 comm="gedit /home/ziqi/Documents/lab_4/errormsg.txt " label="unconfined")
+Sep 24 02:36:23 ziqi-VirtualBox systemd[955]: Starting Virtual filesystem metadata service...
+Sep 24 02:36:23 ziqi-VirtualBox dbus-daemon[980]: [session uid=1000 pid=980] Successfully activated service 'org.gtk.vfs.Metadata'
+Sep 24 02:36:23 ziqi-VirtualBox systemd[955]: Started Virtual filesystem metadata service.
+Sep 24 02:36:38 ziqi-VirtualBox gsd-color[1312]: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+Sep 24 02:40:50 ziqi-VirtualBox sSMTP[2742]: Unable to connect to "smtp.gmail.com" port 587.
+Sep 24 02:40:50 ziqi-VirtualBox sSMTP[2742]: Cannot open smtp.gmail.com:587
+Sep 24 02:41:43 ziqi-VirtualBox sSMTP[2766]: Unable to connect to "smtp.gmail.com" port 587.
+Sep 24 02:41:43 ziqi-VirtualBox sSMTP[2766]: Cannot open smtp.gmail.com:587
+Sep 24 02:42:01 ziqi-VirtualBox sSMTP[2797]: Creating SSL connection to host
+Sep 24 02:42:02 ziqi-VirtualBox sSMTP[2797]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:42:06 ziqi-VirtualBox sSMTP[2797]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection l78sm420903pfd.26 - gsmtp) uid=1000 username=ziqi outbytes=4000
+Sep 24 02:43:36 ziqi-VirtualBox sSMTP[2862]: Creating SSL connection to host
+Sep 24 02:43:38 ziqi-VirtualBox sSMTP[2862]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:43:44 ziqi-VirtualBox sSMTP[2862]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection z18sm363254pfn.186 - gsmtp) uid=1000 username=ziqi outbytes=1241
+Sep 24 02:44:59 ziqi-VirtualBox systemd[1]: Starting Cleanup of Temporary Directories...
+Sep 24 02:44:59 ziqi-VirtualBox systemd[1]: Started Cleanup of Temporary Directories.
+Sep 24 02:45:01 ziqi-VirtualBox CRON[2869]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 24 02:47:47 ziqi-VirtualBox crontab[2907]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 02:48:20 ziqi-VirtualBox crontab[2907]: (ziqi) END EDIT (ziqi)
+Sep 24 02:48:39 ziqi-VirtualBox nautilus[1650]: g_key_file_load_from_file: assertion 'file != NULL' failed
+Sep 24 02:48:39 ziqi-VirtualBox nautilus[1650]: Could not establish a connection to Tracker: Failed to load SPARQL backend: Key file does not have group “DomainOntology”
+Sep 24 02:48:39 ziqi-VirtualBox nautilus[1650]: g_queue_pop_head: assertion 'queue != NULL' failed
+Sep 24 02:48:40 ziqi-VirtualBox nautilus[1650]: message repeated 3 times: [ g_queue_pop_head: assertion 'queue != NULL' failed]
+Sep 24 02:49:16 ziqi-VirtualBox nautilus[1650]: g_queue_foreach: assertion 'queue != NULL' failed
+Sep 24 02:49:16 ziqi-VirtualBox nautilus[1650]: g_queue_free: assertion 'queue != NULL' failed
+Sep 24 02:49:16 ziqi-VirtualBox nautilus[1650]: g_queue_foreach: assertion 'queue != NULL' failed
+Sep 24 02:49:16 ziqi-VirtualBox nautilus[1650]: g_queue_free: assertion 'queue != NULL' failed
+Sep 24 02:49:16 ziqi-VirtualBox gvfsd[1119]: mkdir failed on directory /var/cache/samba: 权限不够
+Sep 24 02:49:16 ziqi-VirtualBox gvfsd[1119]: mkdir failed on directory /var/cache/samba: 权限不够
+Sep 24 02:49:16 ziqi-VirtualBox gvfsd-metadata[2680]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Sep 24 02:49:16 ziqi-VirtualBox gvfsd-metadata[2680]: message repeated 7 times: [ g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed]
+Sep 24 02:49:17 ziqi-VirtualBox gvfsd[1119]: mkdir failed on directory /var/cache/samba: 权限不够
+Sep 24 02:49:18 ziqi-VirtualBox gvfsd[1119]: message repeated 3 times: [ mkdir failed on directory /var/cache/samba: 权限不够]
+Sep 24 02:49:28 ziqi-VirtualBox kernel: [ 1172.193959] capability: warning: `gvfsd-admin' uses 32-bit capabilities (legacy support in use)
+Sep 24 02:49:57 ziqi-VirtualBox crontab[2998]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 02:50:34 ziqi-VirtualBox crontab[2998]: (ziqi) REPLACE (ziqi)
+Sep 24 02:50:34 ziqi-VirtualBox crontab[2998]: (ziqi) END EDIT (ziqi)
+Sep 24 02:50:46 ziqi-VirtualBox crontab[3014]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 02:51:01 ziqi-VirtualBox CRON[3027]: (ziqi) CMD (/home/ziqi/Documents/lab_4/lab4_script.sh)
+Sep 24 02:51:01 ziqi-VirtualBox sSMTP[3052]: Creating SSL connection to host
+Sep 24 02:51:03 ziqi-VirtualBox sSMTP[3052]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:51:07 ziqi-VirtualBox sSMTP[3052]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection gd14sm255244pjb.0 - gsmtp) uid=1000 username=ziqi outbytes=862
+Sep 24 02:51:21 ziqi-VirtualBox dbus-daemon[980]: [session uid=1000 pid=980] Activating service name='org.gnome.Nautilus' requested by ':1.13' (uid=1000 pid=1157 comm="/usr/bin/gnome-shell " label="unconfined")
+Sep 24 02:51:21 ziqi-VirtualBox dbus-daemon[980]: [session uid=1000 pid=980] Successfully activated service 'org.gnome.Nautilus'
+Sep 24 02:51:22 ziqi-VirtualBox dbus-daemon[453]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.96' (uid=1000 pid=3055 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Sep 24 02:51:22 ziqi-VirtualBox systemd[1]: Starting Hostname Service...
+Sep 24 02:51:22 ziqi-VirtualBox dbus-daemon[453]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep 24 02:51:22 ziqi-VirtualBox systemd[1]: Started Hostname Service.
+Sep 24 02:51:23 ziqi-VirtualBox nautilus[3055]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+Sep 24 02:51:38 ziqi-VirtualBox sSMTP[3053]: Creating SSL connection to host
+Sep 24 02:51:39 ziqi-VirtualBox sSMTP[3053]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:51:42 ziqi-VirtualBox sSMTP[3053]: Sent mail for root@ziqi-VirtualBox (221 2.0.0 closing connection gx5sm227898pjb.57 - gsmtp) uid=1000 username=ziqi outbytes=672
+Sep 24 02:51:44 ziqi-VirtualBox crontab[3014]: (ziqi) END EDIT (ziqi)
+Sep 24 02:55:01 ziqi-VirtualBox CRON[3084]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 24 02:58:20 ziqi-VirtualBox sSMTP[3135]: Unable to connect to "smtp.gmail.com" port 587.
+Sep 24 02:58:20 ziqi-VirtualBox sSMTP[3135]: Cannot open smtp.gmail.com:587
+Sep 24 02:58:31 ziqi-VirtualBox sSMTP[3159]: Creating SSL connection to host
+Sep 24 02:58:31 ziqi-VirtualBox sSMTP[3183]: Creating SSL connection to host
+Sep 24 02:58:33 ziqi-VirtualBox sSMTP[3183]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 02:58:40 ziqi-VirtualBox sSMTP[3183]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection ge12sm252021pjb.26 - gsmtp) uid=1000 username=ziqi outbytes=1235
+Sep 24 03:00:57 ziqi-VirtualBox crontab[3213]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 03:01:22 ziqi-VirtualBox crontab[3213]: (ziqi) REPLACE (ziqi)
+Sep 24 03:01:22 ziqi-VirtualBox crontab[3213]: (ziqi) END EDIT (ziqi)
+Sep 24 03:02:01 ziqi-VirtualBox cron[493]: (ziqi) RELOAD (crontabs/ziqi)
+Sep 24 03:02:01 ziqi-VirtualBox CRON[3228]: (ziqi) CMD (/home/ziqi/Documents/lab_4/lab4_script.sh)
+Sep 24 03:03:28 ziqi-VirtualBox systemd[1]: Started Run anacron jobs.
+Sep 24 03:03:28 ziqi-VirtualBox anacron[3257]: Anacron 2.3 started on 2020-09-24
+Sep 24 03:03:28 ziqi-VirtualBox anacron[3257]: Normal exit (0 jobs run)
+Sep 24 03:03:28 ziqi-VirtualBox crontab[3258]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 03:04:03 ziqi-VirtualBox crontab[3258]: (ziqi) REPLACE (ziqi)
+Sep 24 03:04:03 ziqi-VirtualBox crontab[3258]: (ziqi) END EDIT (ziqi)
+Sep 24 03:04:11 ziqi-VirtualBox sSMTP[3291]: Creating SSL connection to host
+Sep 24 03:04:13 ziqi-VirtualBox sSMTP[3254]: Unable to connect to "smtp.gmail.com" port 587.
+Sep 24 03:04:13 ziqi-VirtualBox sSMTP[3254]: Cannot open smtp.gmail.com:587
+Sep 24 03:04:14 ziqi-VirtualBox sSMTP[3291]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 03:04:14 ziqi-VirtualBox sSMTP[3292]: Creating SSL connection to host
+Sep 24 03:04:15 ziqi-VirtualBox sSMTP[3292]: SSL connection using ECDHE_ECDSA_CHACHA20_POLY1305
+Sep 24 03:04:23 ziqi-VirtualBox sSMTP[3292]: Sent mail for root@ziqi-VirtualBox (221 2.0.0 closing connection z1sm409475pfj.113 - gsmtp) uid=1000 username=ziqi outbytes=807
+Sep 24 03:04:28 ziqi-VirtualBox sSMTP[3291]: Sent mail for ziqi@ziqi-VirtualBox (221 2.0.0 closing connection c24sm412564pfd.24 - gsmtp) uid=1000 username=ziqi outbytes=1235
+Sep 24 03:04:42 ziqi-VirtualBox crontab[3294]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 03:05:01 ziqi-VirtualBox cron[493]: (ziqi) RELOAD (crontabs/ziqi)
+Sep 24 03:05:01 ziqi-VirtualBox CRON[3308]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Sep 24 03:07:19 ziqi-VirtualBox crontab[3294]: (ziqi) END EDIT (ziqi)
+Sep 24 03:07:26 ziqi-VirtualBox sSMTP[3159]: Connection lost in middle of processing
+Sep 24 03:07:36 ziqi-VirtualBox crontab[3319]: (ziqi) BEGIN EDIT (ziqi)
+Sep 24 03:08:35 ziqi-VirtualBox crontab[3319]: (ziqi) REPLACE (ziqi)
+Sep 24 03:08:35 ziqi-VirtualBox crontab[3319]: (ziqi) END EDIT (ziqi)
+Sep 24 03:09:01 ziqi-VirtualBox cron[493]: (ziqi) RELOAD (crontabs/ziqi)
+Sep 24 03:10:01 ziqi-VirtualBox CRON[3339]: (ziqi) CMD (/home/ziqi/Documents/lab_4/lab4_script.sh)
