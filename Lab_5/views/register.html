@@ -1,0 +1,122 @@
+<!-- Registration Page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Register Page</title>
+	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+  </head>
+  <body>
+	
+	<img src="../resources/img/beproudcapaabanner.jpg" class="img-fluid" alt="Registration Page Banner for CU Football">
+    <br>
+	<br>
+	<div class="container">
+		<form action="home.html">
+		  	<div class="form-group row">
+		    	<label for="name" class="col-sm-2 col-form-label">Full Name</label>
+		    	<div class="col-sm-10">
+		      		<input type="name" class="form-control" id="name" placeholder="Enter Name">
+		    	</div>
+		  	</div>
+		  	<div class="form-group row">
+		    	<label for="Email1" class="col-sm-2 col-form-label">Email address</label>
+		    	<div class="col-sm-10">
+		      		<input type="email" class="form-control" id="Email1" placeholder="Enter email">
+		    	</div>
+		  	</div>
+		  	<div class="form-group row">
+		    	<label for="Password" class="col-sm-2 col-form-label">Password</label>
+		    	<div class="col-sm-10">
+		      		<input type="password" class="form-control" id="Password" placeholder="Password">
+		    	</div>
+		  	</div>
+		  	<div class="form-group row">
+		    	<label for="ConfirmPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+		    	<div class="col-sm-10">
+		      		<input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
+		    	</div>
+		  	</div>
+			<fieldset class="form-group">
+			    <div class="row">
+			    	<legend class="col-form-label col-sm-2 pt-0">CU Boulder Alumni</legend>
+			      	<div class="col-sm-10">
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="Alumni" id="Alumni1" value="option1">
+			          		<label class="form-check-label" for="Alumni1">
+			            		Yes
+			          		</label>
+			        	</div>
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="Alumni" id="Alumni2" value="option2">
+			          		<label class="form-check-label" for="Alumni2">
+			            		No
+			          		</label>
+			        	</div>
+			    	</div>
+				</div>
+			</fieldset>
+			<fieldset class="form-group">
+			    <div class="row">
+			    	<legend class="col-form-label col-sm-2 pt-0">CU Boulder Student</legend>
+			      	<div class="col-sm-10">
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="Student" id="Student1" value="option1">
+			          		<label class="form-check-label" for="Student1">
+			            		Yes
+			          		</label>
+			        	</div>
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="Student" id="Student2" value="option2">
+			          		<label class="form-check-label" for="Student2">
+			            		No
+			          		</label>
+			        	</div>
+			    	</div>
+				</div>
+			</fieldset>
+			<fieldset class="form-group">
+			    <div class="row">
+			    	<legend class="col-form-label col-sm-2 pt-0">Student Status</legend>
+			      	<div class="col-sm-10">
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+			          		<label class="form-check-label" for="gridRadios1">
+			            		Undergrad
+			          		</label>
+			        	</div>
+			        	<select class="form-control" id="selectbox">
+			        		<option selected>Select Student Status</option>
+							<option>Freshman</option>
+							<option>Sophomore</option>
+							<option>Junior</option>
+							<option>Senior</option>
+						</select>
+			        	<div class="form-check">
+			          		<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			          		<label class="form-check-label" for="gridRadios2">
+			            		Grad
+			          		</label>
+			        	</div>
+			        	<select class="form-control" id="selectbox">
+			        		<option selected>Select Student Status</option>
+							<option>MA</option>
+							<option>MBA</option>
+							<option>PhD</option>	
+						</select>
+			    	</div>
+				</div>
+			</fieldset>
+			<input type="submit" value="submit" class="btn btn-primary btn-block">
+		</form>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
